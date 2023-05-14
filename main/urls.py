@@ -1,7 +1,7 @@
 from urllib.parse import urlparse
-from django import path
+from django.urls import path, include
 from . import views # . means current file
 
 urlpatterns = [
-    path('',views.home, name='home'),
+    path('',views.index, name='index'),
 ]
