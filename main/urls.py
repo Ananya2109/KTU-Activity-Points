@@ -4,4 +4,5 @@ from . import views # . means current file
 
 urlpatterns = [
     path('',views.index, name='index'),
+    path('index',views.index, name='index')
 ]
