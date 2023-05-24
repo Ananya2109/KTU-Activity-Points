@@ -82,8 +82,8 @@ DATABASES = {
        'ENGINE': 'django.db.backends.postgresql',
        'NAME': 'postgres',
        'USER': 'postgres',
-       'PASSWORD': 'uHGVu1mSqk9JooWh',
-       'HOST': 'db.dbijjlzzaaikuhkrlpbj.supabase.co',
+       'PASSWORD': 'uJwXNRYhbWwns3xA',
+       'HOST': 'db.ereuwzaxqjyorillsvsf.supabase.co',
        'PORT': '5432',
    }
 }
@@ -107,6 +107,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+AUTH_USER_MODEL = 'main.User'
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
